@@ -25,11 +25,8 @@ import { zValidatorI18n } from 'hono-zod-validator-i18n';
 import zodEn from 'hono-zod-validator-i18n/locales/en/zod.json';
 import zodJa from 'hono-zod-validator-i18n/locales/ja/zod.json';
 
-// define middleware with vue-i18n like options
 const i18nMiddleware = defineI18nMiddleware({
-  // detect locale with `accept-language` header
   locale: detectLocaleFromAcceptLanguageHeader,
-  // resource messages
   messages: {
     en: {
       hello: 'Hello {name}!',
@@ -40,13 +37,10 @@ const i18nMiddleware = defineI18nMiddleware({
       zod: zodJa,
     },
   },
-  // something options
-  // ...
 });
 
 const app = new Hono();
 
-// install middleware with `app.use`
 app.use('*', i18nMiddleware);
 
 const schema = z.object({
@@ -75,6 +69,43 @@ zValidatorI18n('json', schema, (result, c) => {
   console.log('This will run after the error translation.');
 });
 ```
+
+## Custom Translations
+
+You can define custom Zod error message translations like this:
+
+```ts
+import zodEn from 'hono-zod-validator-i18n/locales/en/zod.json';
+import zodJa from 'hono-zod-validator-i18n/locales/ja/zod.json';
+
+const i18nMiddleware = defineI18nMiddleware({
+  locale: 'ja',
+  messages: {
+    en: {
+      hello: 'Hello {name}!',
+      // All custom error message translations should be inside: zod.custom
+      zod: { ...zodEn, custom: { some_message: 'Some message' } },
+    },
+    ja: {
+      hello: 'こんにちは、{name}！',
+      zod: { ...zodJa, custom: { some_message: '何かのメッセージ' } },
+    },
+  },
+});
+```
+
+And use it like this:
+
+```ts
+zValidatorI18n(
+  'json',
+  z.object({
+    name: z.string({ message: 'zod.custom.some_message' }), // Will result in: '何かのメッセージ'
+  })
+),
+```
+
+**Custom Zod error translations only work when prefixed with `zod.custom.`. If you do not use this prefix, the translation of the standard Zod error message will be used**
 
 ## Translation Files 🌐
 
