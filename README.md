@@ -1,8 +1,10 @@
+[![npm version](https://badge.fury.io/js/hono-zod-validator-i18n.svg)](https://badge.fury.io/js/hono-zod-validator-i18n)
+
 # Zod Internationalization
 
 This library is used to translate Zod's default error messages.
 
-## Installation
+## Installation 💿
 
 ```bash
 npm install hono-zod-validator-i18n @intlify/hono
@@ -10,7 +12,7 @@ npm install hono-zod-validator-i18n @intlify/hono
 
 This library depends on `@intlify/hono`.
 
-## How to Use
+## Getting Started 🚀
 
 ```ts
 import { Hono } from 'hono';
@@ -74,7 +76,7 @@ zValidatorI18n('json', schema, (result, c) => {
 });
 ```
 
-## Translation Files
+## Translation Files 🌐
 
 `hono-zod-validator-i18n` contains translation files for several locales.
 
@@ -113,20 +115,20 @@ It is also possible to create and edit translation files. You can use [this Engl
 
 **If you have created a translation file for a language not yet in the repository, please send us a pull request.**
 
-## Contributing
+## Contributing 🤝
 
 Please read [CONTRIBUTING.md](https://github.com/thijserven/hono-zod-validator-i18n/tree/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## License
+## License 🔖
 
 This project is licensed under the MIT License
 
-- see the [LICENSE](https://github.com/thijserven/hono-zod-validator-i18n/tree/main/LICENCE) file for details
+- see the [LICENSE](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/LICENSE) file for details
 
 ## Contributors ✨
 
 ![Contributors icons](https://contrib.nn.ci/api?repo=thijserven/hono-zod-validator-i18n)
 
-## Special Thanks
+## Special Thanks ❤️
 
 - [aiji42](https://www.npmjs.com/~aiji42) for creating [Zod i18n Map](https://www.npmjs.com/package/zod-i18n-map/v/1.7.0) which inspired this package.
