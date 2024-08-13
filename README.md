@@ -112,3 +112,21 @@ zValidatorI18n('json', schema, (result, c) => {
 It is also possible to create and edit translation files. You can use [this English translation file](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/en/zod.json) as a basis for rewriting it in your language.
 
 **If you have created a translation file for a language not yet in the repository, please send us a pull request.**
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/thijserven/hono-zod-validator-i18n/tree/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License
+
+- see the [LICENSE](https://github.com/thijserven/hono-zod-validator-i18n/tree/main/LICENCE) file for details
+
+## Contributors ✨
+
+![Contributors icons](https://contrib.nn.ci/api?repo=thijserven/hono-zod-validator-i18n)
+
+## Special Thanks
+
+- [aiji42](https://www.npmjs.com/~aiji42) for creating [Zod i18n Map](https://www.npmjs.com/package/zod-i18n-map/v/1.7.0) which inspired this package.
