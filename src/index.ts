@@ -72,6 +72,13 @@ function translateIssues(c: Context, issues: ZodIssue[]) {
   issues.forEach((issue) => {
     let message: string = issue.message;
 
+    if (message.includes(`${ns}.custom`)) {
+      return translatedIssues.push({
+        ...issue,
+        message: t(message),
+      });
+    }
+
     switch (issue.code) {
       case ZodIssueCode.invalid_type:
         if (issue.received === ZodParsedType.undefined) {
