@@ -73,3 +73,42 @@ zValidatorI18n('json', schema, (result, c) => {
   console.log('This will run after the error translation.');
 });
 ```
+
+## Translation Files
+
+`hono-zod-validator-i18n` contains translation files for several locales.
+
+- [Arabic(ar)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/ar/zod.json)
+- [Bulgarian(bg)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/bg/zod.json)
+- [Czech(cs)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/cs/zod.json)
+- [German(de)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/de/zod.json)
+- [English(en)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/en/zod.json)
+- [Spanish(es)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/es/zod.json)
+- [Persian(fa)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/fa/zod.json)
+- [Finnish(fi)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/fi/zod.json)
+- [French(fr)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/fr/zod.json)
+- [Hebrew(he)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/he/zod.json)
+- [Croatian(hr-Hr)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/hr-He/zod.json)
+- [Indonesian(id)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/id/zod.json)
+- [Icelandic(is)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/is/zod.json)
+- [Italian(it)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/it/zod.json)
+- [Japanese(ja)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/ja/zod.json)
+- [Korean(ko)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/ko/zod.json)
+- [Lithuanian(lt)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/lt/zod.json)
+- [Norwegian(nb)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/nb/zod.json)
+- [Dutch(nl)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/nl/zod.json)
+- [Polish(pl)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/pl/zod.json)
+- [Portuguese(pt)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/pt/zod.json)
+- [Romanian(ro)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/ro/zod.json)
+- [Russian(ru)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/ru/zod.json)
+- [Swedish(sv)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/sv/zod.json)
+- [Turkish(tr)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/tr/zod.json)
+- [Ukrainian(uk-UA)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/uk-UA/zod.json)
+- [Uzbek(uz)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/uz/zod.json)
+- Chinese
+  - [Simplified Chinese(zh-CN)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/zh-CN/zod.json)
+  - [Traditional Chinese(zh-TW)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/zh-TW/zod.json)
+
+It is also possible to create and edit translation files. You can use [this English translation file](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/en/zod.json) as a basis for rewriting it in your language.
+
+**If you have created a translation file for a language not yet in the repository, please send us a pull request.**
