@@ -61,7 +61,7 @@ export default app;
 
 ## `zValidatorI18n`
 
-The `zValidatorI18n` function works exactly the same as the original `zValidator` function from `@hono/zod-validator` so it can still except a custom hook function.
+The `zValidatorI18n` function works exactly the same as the original `zValidator` function from `@hono/zod-validator` so you can still add a custom hook function.
 
 ```ts
 zValidatorI18n('json', schema, (result, c) => {
@@ -121,7 +121,7 @@ zValidatorI18n(
 - [Finnish(fi)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/fi/zod.json)
 - [French(fr)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/fr/zod.json)
 - [Hebrew(he)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/he/zod.json)
-- [Croatian(hr-Hr)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/hr-He/zod.json)
+- [Croatian(hr-HR)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/hr-HR/zod.json)
 - [Indonesian(id)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/id/zod.json)
 - [Icelandic(is)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/is/zod.json)
 - [Italian(it)](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/locales/it/zod.json)
@@ -152,7 +152,7 @@ Please read [CONTRIBUTING.md](https://github.com/thijserven/hono-zod-validator-i
 
 ## License 🔖
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 - see the [LICENSE](https://github.com/thijserven/hono-zod-validator-i18n/blob/main/LICENSE) file for details
 
