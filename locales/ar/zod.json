@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "مطلوب",
     "invalid_type_received_null": "مطلوب",
     "invalid_literal": "قيمة حرفية غير صالحة، المتوقع {expected}",
-    "unrecognized_keys": "عنصر (عناصر) غير معروف في الكائن: {- keys}",
+    "unrecognized_keys": "عنصر (عناصر) غير معروف في الكائن: {keys}",
     "invalid_union": "مدخل غير صالح",
-    "invalid_union_discriminator": "قيمة مميزة غير صالحة. المتوقع {- options}",
-    "invalid_enum_value": "قيمة تعداد غير صالحة. المتوقع {- options}، المستلم '{received}'",
+    "invalid_union_discriminator": "قيمة مميزة غير صالحة. المتوقع {options}",
+    "invalid_enum_value": "قيمة تعداد غير صالحة. المتوقع {options}، المستلم '{received}'",
     "invalid_arguments": "معاملات الدالة غير صالحة",
     "invalid_return_type": "نوع إرجاع دالة غير صالح",
     "invalid_date": "تاريخ غير صالح",
@@ -47,9 +47,9 @@
         "not_inclusive": "مدخل غير صالح"
       },
       "date": {
-        "exact": "يجب أن يكون التاريخ {- minimum, datetime}",
-        "inclusive": "يجب أن يكون التاريخ أكبر من أو يساوي {- minimum, datetime}",
-        "not_inclusive": "يجب أن يكون التاريخ أكبر من {- minimum, datetime}"
+        "exact": "يجب أن يكون التاريخ {minimum, datetime}",
+        "inclusive": "يجب أن يكون التاريخ أكبر من أو يساوي {minimum, datetime}",
+        "not_inclusive": "يجب أن يكون التاريخ أكبر من {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "مدخل غير صالح"
       },
       "date": {
-        "exact": "يجب أن يكون التاريخ {- maximum, datetime}",
-        "inclusive": "يجب أن يكون التاريخ أصغر من أو يساوي {- maximum, datetime}",
-        "not_inclusive": "يجب أن يكون التاريخ أصغر من {- maximum, datetime}"
+        "exact": "يجب أن يكون التاريخ {maximum, datetime}",
+        "inclusive": "يجب أن يكون التاريخ أصغر من أو يساوي {maximum, datetime}",
+        "not_inclusive": "يجب أن يكون التاريخ أصغر من {maximum, datetime}"
       }
     }
   },

@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Obrigatório",
     "invalid_type_received_null": "Obrigatório",
     "invalid_literal": "Valor literal inválido, era esperado {expected}",
-    "unrecognized_keys": "Chave(s) não reconhecida(s) no objeto: {- keys}",
+    "unrecognized_keys": "Chave(s) não reconhecida(s) no objeto: {keys}",
     "invalid_union": "Entrada inválida",
-    "invalid_union_discriminator": "Valor discriminador inválido. Foi esperado {- options}",
-    "invalid_enum_value": "Enum no formato inválido. Foi esperado {- options}, porém foi recebido '{received}'",
+    "invalid_union_discriminator": "Valor discriminador inválido. Foi esperado {options}",
+    "invalid_enum_value": "Enum no formato inválido. Foi esperado {options}, porém foi recebido '{received}'",
     "invalid_arguments": "Argumento de função inválido",
     "invalid_return_type": "Tipo de retorno de função inválido",
     "invalid_date": "Data inválida",
@@ -47,9 +47,9 @@
         "not_inclusive": "Entrada inválida"
       },
       "date": {
-        "exact": "Data deve ser exatamente {- maximum, datetime}",
-        "inclusive": "Data deve ser maior ou igual a {- minimum, datetime}",
-        "not_inclusive": "Data deve ser maior que {- minimum, datetime}"
+        "exact": "Data deve ser exatamente {maximum, datetime}",
+        "inclusive": "Data deve ser maior ou igual a {minimum, datetime}",
+        "not_inclusive": "Data deve ser maior que {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Entrada inválida"
       },
       "date": {
-        "exact": "Data deve ser exatamente {- maximum, datetime}",
-        "inclusive": "Data deve ser menor ou igual a {- maximum, datetime}",
-        "not_inclusive": "Data deve ser menor que {- maximum, datetime}"
+        "exact": "Data deve ser exatamente {maximum, datetime}",
+        "inclusive": "Data deve ser menor ou igual a {maximum, datetime}",
+        "not_inclusive": "Data deve ser menor que {maximum, datetime}"
       }
     }
   },

@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Задължително поле",
     "invalid_type_received_null": "Задължително поле",
     "invalid_literal": "Невалиден литерал, очаквано {expected}",
-    "unrecognized_keys": "Неразпознат(и) ключ(ове) в обекта: {- keys}",
+    "unrecognized_keys": "Неразпознат(и) ключ(ове) в обекта: {keys}",
     "invalid_union": "Невалидно обединение",
-    "invalid_union_discriminator": "Невалидна стойност на дискриминатора. Очаквано {- options}",
-    "invalid_enum_value": "Невалидна стойност на enum. Очаквано {- options}, получено '{received}'",
+    "invalid_union_discriminator": "Невалидна стойност на дискриминатора. Очаквано {options}",
+    "invalid_enum_value": "Невалидна стойност на enum. Очаквано {options}, получено '{received}'",
     "invalid_arguments": "Невалидни аргументи на функцията",
     "invalid_return_type": "Невалиден тип на върнатата от функцията стойност",
     "invalid_date": "Невалидна дата",
@@ -47,9 +47,9 @@
         "not_inclusive": "Невалидни данни"
       },
       "date": {
-        "exact": "Датата трябва да бъде точно {- minimum, datetime}",
-        "inclusive": "Датата трябва да бъде по-голяма или равна на {- minimum, datetime}",
-        "not_inclusive": "Датата трябва да бъде по-голяма от {- minimum, datetime}"
+        "exact": "Датата трябва да бъде точно {minimum, datetime}",
+        "inclusive": "Датата трябва да бъде по-голяма или равна на {minimum, datetime}",
+        "not_inclusive": "Датата трябва да бъде по-голяма от {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Невалидни данни"
       },
       "date": {
-        "exact": "Датата трябва да бъде точно {- maximum, datetime}",
-        "inclusive": "Датата трябва да бъде по-малка или равна на {- maximum, datetime}",
-        "not_inclusive": "Датата трябва да бъде по-малка от {- maximum, datetime}"
+        "exact": "Датата трябва да бъде точно {maximum, datetime}",
+        "inclusive": "Датата трябва да бъде по-малка или равна на {maximum, datetime}",
+        "not_inclusive": "Датата трябва да бъде по-малка от {maximum, datetime}"
       }
     }
   },

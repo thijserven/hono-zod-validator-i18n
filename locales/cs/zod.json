@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Povinné",
     "invalid_type_received_null": "Povinné",
     "invalid_literal": "Neplatná doslovná hodnota, očekává se {expected}",
-    "unrecognized_keys": "Nerozpoznané klíče v objektu: {- keys}",
+    "unrecognized_keys": "Nerozpoznané klíče v objektu: {keys}",
     "invalid_union": "Neplatný vstup",
-    "invalid_union_discriminator": "Neplatná hodnota diskriminátoru. Očekává se {- options}",
-    "invalid_enum_value": "Neplatná hodnota výčtu. Očekává se {- options}, ale bylo obdrženo '{received}'",
+    "invalid_union_discriminator": "Neplatná hodnota diskriminátoru. Očekává se {options}",
+    "invalid_enum_value": "Neplatná hodnota výčtu. Očekává se {options}, ale bylo obdrženo '{received}'",
     "invalid_arguments": "Neplatné argumenty funkce",
     "invalid_return_type": "Neplatný typ návratové hodnoty",
     "invalid_date": "Neplatné datum",
@@ -47,9 +47,9 @@
         "not_inclusive": "Neplatný vstup"
       },
       "date": {
-        "exact": "Datum musí být přesně {- minimum, datetime}",
-        "inclusive": "Datum musí být větší nebo rovno {- minimum, datetime}",
-        "not_inclusive": "Datum musí být větší než {- minimum, datetime}"
+        "exact": "Datum musí být přesně {minimum, datetime}",
+        "inclusive": "Datum musí být větší nebo rovno {minimum, datetime}",
+        "not_inclusive": "Datum musí být větší než {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Neplatný vstup"
       },
       "date": {
-        "exact": "Datum musí být přesně {- maximum, datetime}",
-        "inclusive": "Datum musí být menší nebo rovno {- maximum, datetime}",
-        "not_inclusive": "Datum musí být menší než {- maximum, datetime}"
+        "exact": "Datum musí být přesně {maximum, datetime}",
+        "inclusive": "Datum musí být menší nebo rovno {maximum, datetime}",
+        "not_inclusive": "Datum musí být menší než {maximum, datetime}"
       }
     }
   },

@@ -4,7 +4,7 @@
     "invalid_type_received_undefined": "Majburiy maydon",
     "invalid_type_received_null": "Majburiy maydon",
     "invalid_literal": "Noto'g'ri so'zma-so'z qiymat, kutilmoqda {expected}",
-    "unrecognized_keys": "Obyektdagi kalit(lar) noto'g'ri: {- keys}",
+    "unrecognized_keys": "Obyektdagi kalit(lar) noto'g'ri: {keys}",
     "invalid_union": "Kesishma natijalarini birlashtirib bo'lmaydi",
     "invalid_union_discriminator": "Diskriminator qiymati noto'g'ri. {-options} kutilmoqda",
     "invalid_enum_value": "Enum qiymati noto'g'ri. Kutilayotgan {-options}, qabul qilingan '{received}'",
@@ -47,9 +47,9 @@
         "not_inclusive": "Noto'g'ri kiritildi"
       },
       "date": {
-        "exact": "Sana aynan {- minimum, sana vaqti} bo'lishi kerak",
-        "inclusive": "Sana {- minimum, datetime} dan katta yoki unga teng bo'lishi kerak",
-        "not_inclusive": "Sana {- minimum, datetime} dan katta bo'lishi kerak"
+        "exact": "Sana aynan {minimum, sana vaqti} bo'lishi kerak",
+        "inclusive": "Sana {minimum, datetime} dan katta yoki unga teng bo'lishi kerak",
+        "not_inclusive": "Sana {minimum, datetime} dan katta bo'lishi kerak"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Noto'g'ri kiritildi"
       },
       "date": {
-        "exact": "Sana aynan {- maximum, datetime} bo'lishi kerak",
-        "inclusive": "Sana {- maximum, datetime} dan kichik yoki unga teng bo'lishi kerak",
-        "not_inclusive": "Sana {- maximum, datetime} dan kichik bo'lishi kerak"
+        "exact": "Sana aynan {maximum, datetime} bo'lishi kerak",
+        "inclusive": "Sana {maximum, datetime} dan kichik yoki unga teng bo'lishi kerak",
+        "not_inclusive": "Sana {maximum, datetime} dan kichik bo'lishi kerak"
       }
     }
   },

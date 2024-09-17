@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Requerido",
     "invalid_type_received_null": "Requerido",
     "invalid_literal": "Valor literal inválido, se esperaba {expected}",
-    "unrecognized_keys": "Llave(s) no reconocida(s) en el objeto: {- keys}",
+    "unrecognized_keys": "Llave(s) no reconocida(s) en el objeto: {keys}",
     "invalid_union": "Entrada inválida",
-    "invalid_union_discriminator": "Valor discriminador inválido. Se esperaba {- options}",
-    "invalid_enum_value": "Valor inválido. Se esperaba {- options}, se recibió '{received}'",
+    "invalid_union_discriminator": "Valor discriminador inválido. Se esperaba {options}",
+    "invalid_enum_value": "Valor inválido. Se esperaba {options}, se recibió '{received}'",
     "invalid_arguments": "Argumentos de función inválidos",
     "invalid_return_type": "Tipo de retorno de función inválido",
     "invalid_date": "Fecha inválida",
@@ -47,9 +47,9 @@
         "not_inclusive": "Entrada inválida"
       },
       "date": {
-        "exact": "La fecha debe ser exactamente {- minimum, datetime}",
-        "inclusive": "La fecha debe ser mayor o igual al {- minimum, datetime}",
-        "not_inclusive": "La fecha debe ser mayor que el {- minimum, datetime}"
+        "exact": "La fecha debe ser exactamente {minimum, datetime}",
+        "inclusive": "La fecha debe ser mayor o igual al {minimum, datetime}",
+        "not_inclusive": "La fecha debe ser mayor que el {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Entrada inválida"
       },
       "date": {
-        "exact": "La fecha debe ser exactamente {- maximum, datetime}",
-        "inclusive": "La fecha debe ser menor o igual al {- maximum, datetime}",
-        "not_inclusive": "La fecha debe ser menor que el {- maximum, datetime}"
+        "exact": "La fecha debe ser exactamente {maximum, datetime}",
+        "inclusive": "La fecha debe ser menor o igual al {maximum, datetime}",
+        "not_inclusive": "La fecha debe ser menor que el {maximum, datetime}"
       }
     }
   },

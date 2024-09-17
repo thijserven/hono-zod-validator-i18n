@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "الزامی",
     "invalid_type_received_null": "الزامی",
     "invalid_literal": "مقدار دقیق نامعتبر, مورد انتظار {expected}",
-    "unrecognized_keys": "کلید(ها) شناسایی نشده در آبجکت: {- keys}",
+    "unrecognized_keys": "کلید(ها) شناسایی نشده در آبجکت: {keys}",
     "invalid_union": "مقدار ورودی نامعتبر",
-    "invalid_union_discriminator": "مقدار جدا کننده نامعتبر, مورد انتظار {- options}",
-    "invalid_enum_value": "مقدار نامعتبر, مورد انتظار {- options}, دریافت شده '{received}'",
+    "invalid_union_discriminator": "مقدار جدا کننده نامعتبر, مورد انتظار {options}",
+    "invalid_enum_value": "مقدار نامعتبر, مورد انتظار {options}, دریافت شده '{received}'",
     "invalid_arguments": "مقدار ورودی تابع نامعتبر است",
     "invalid_return_type": "نوع خروجی تابع نامعتبر است",
     "invalid_date": "تاریخ نامعتبر",
@@ -47,9 +47,9 @@
         "not_inclusive": "ورودی نامعتبر"
       },
       "date": {
-        "exact": "تاریخ باید دقیقا {- minimum, datetime} باشد",
-        "inclusive": "تاریخ باید بزرگتر یا برابر {- minimum, datetime} باشد",
-        "not_inclusive": "تاریخ باید بیشتر از {- minimum, datetime} باشد"
+        "exact": "تاریخ باید دقیقا {minimum, datetime} باشد",
+        "inclusive": "تاریخ باید بزرگتر یا برابر {minimum, datetime} باشد",
+        "not_inclusive": "تاریخ باید بیشتر از {minimum, datetime} باشد"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "ورودی نامعتبر"
       },
       "date": {
-        "exact": "تاریخ باید دقیقا {- maximum, datetime} باشد",
-        "inclusive": "تاریخ باید کوچکتر یا برابر {- maximum, datetime} باشد",
-        "not_inclusive": "تاریخ باید کوچتر از {- maximum, datetime} باشد"
+        "exact": "تاریخ باید دقیقا {maximum, datetime} باشد",
+        "inclusive": "تاریخ باید کوچکتر یا برابر {maximum, datetime} باشد",
+        "not_inclusive": "تاریخ باید کوچتر از {maximum, datetime} باشد"
       }
     }
   },

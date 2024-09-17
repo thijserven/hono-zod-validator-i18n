@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Обов'язковe поле",
     "invalid_type_received_null": "Обов'язковe поле",
     "invalid_literal": "Невірне літеральне значення, очікувалось {expected}",
-    "unrecognized_keys": "Нерозпізнані ключі в об'єкті: {- keys}",
+    "unrecognized_keys": "Нерозпізнані ключі в об'єкті: {keys}",
     "invalid_union": "Невірне введення",
-    "invalid_union_discriminator": "Неправильне значення дискримінатора. Очікувалось {- options}",
-    "invalid_enum_value": "Невірне значення enum. Очікувалося {- options}, отримано '{received}'",
+    "invalid_union_discriminator": "Неправильне значення дискримінатора. Очікувалось {options}",
+    "invalid_enum_value": "Невірне значення enum. Очікувалося {options}, отримано '{received}'",
     "invalid_arguments": "Невірні аргументи функції",
     "invalid_return_type": "Невірний тип значення, що повертається функцією",
     "invalid_date": "Невірний формат дати",
@@ -47,8 +47,8 @@
         "not_inclusive": "Невірний ввід"
       },
       "date": {
-        "exact": "Дата повинно бути точно {- minimum, datetime}",
-        "inclusive": "Дата повинно бути більшою або рівною {- minimum, datetime}",
+        "exact": "Дата повинно бути точно {minimum, datetime}",
+        "inclusive": "Дата повинно бути більшою або рівною {minimum, datetime}",
         "not_inclusive": "Дата повинно бути більшою ніж {-minimum, datetime}"
       }
     },
@@ -74,9 +74,9 @@
         "not_inclusive": "Невірний ввід"
       },
       "date": {
-        "exact": "Дата повинна бути точно {- maximum, datetime}",
-        "inclusive": "Дата повинна бути меншою або дорівнювати {- maximum, datetime}",
-        "not_inclusive": "Дата повинно бути меншою ніж {- maximum, datetime}"
+        "exact": "Дата повинна бути точно {maximum, datetime}",
+        "inclusive": "Дата повинна бути меншою або дорівнювати {maximum, datetime}",
+        "not_inclusive": "Дата повинно бути меншою ніж {maximum, datetime}"
       }
     }
   },

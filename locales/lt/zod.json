@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Šis laukas yra privalomas",
     "invalid_type_received_null": "Šis laukas yra privalomas",
     "invalid_literal": "Klaidinga literalo reikšmė, tikėtasi {expected}",
-    "unrecognized_keys": "Neatpažintas(i) raktas(ai) objekte: {- keys}",
+    "unrecognized_keys": "Neatpažintas(i) raktas(ai) objekte: {keys}",
     "invalid_union": "Klaidinga įvestis",
-    "invalid_union_discriminator": "Netinkama diksriminanto reikšmė. Tikėtasi {- options}",
-    "invalid_enum_value": "Klaidinga reikšmė. Tikėtasi {- options}, gauta '{received}'",
+    "invalid_union_discriminator": "Netinkama diksriminanto reikšmė. Tikėtasi {options}",
+    "invalid_enum_value": "Klaidinga reikšmė. Tikėtasi {options}, gauta '{received}'",
     "invalid_arguments": "Klaidingi funkcijos argumentai",
     "invalid_return_type": "Klaidingas funkcijos gražinamos reikšmės tipas",
     "invalid_date": "Klaidinga data",
@@ -47,9 +47,9 @@
         "not_inclusive": "Klaidinga įvestis"
       },
       "date": {
-        "exact": "Data privalo būti {- minimum, datetime}",
-        "inclusive": "Data privalo būti vėlesnė arba lygi {- minimum, datetime}",
-        "not_inclusive": "Data privalo būti vėlesnė, nei {- minimum, datetime}"
+        "exact": "Data privalo būti {minimum, datetime}",
+        "inclusive": "Data privalo būti vėlesnė arba lygi {minimum, datetime}",
+        "not_inclusive": "Data privalo būti vėlesnė, nei {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Klaidinga įvestis"
       },
       "date": {
-        "exact": "Data privalo būti {- maximum, datetime}",
-        "inclusive": "Data privalo būti ankstesnė arba lygi {- maximum, datetime}",
-        "not_inclusive": "Data privalo būti ankstesnė, nei {- maximum, datetime}"
+        "exact": "Data privalo būti {maximum, datetime}",
+        "inclusive": "Data privalo būti ankstesnė arba lygi {maximum, datetime}",
+        "not_inclusive": "Data privalo būti ankstesnė, nei {maximum, datetime}"
       }
     }
   },

@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Required",
     "invalid_type_received_null": "Required",
     "invalid_literal": "Invalid literal value, expected {expected}",
-    "unrecognized_keys": "Unrecognized key(s) in object: {- keys}",
+    "unrecognized_keys": "Unrecognized key(s) in object: {keys}",
     "invalid_union": "Invalid input",
-    "invalid_union_discriminator": "Invalid discriminator value. Expected {- options}",
-    "invalid_enum_value": "Invalid enum value. Expected {- options}, received '{received}'",
+    "invalid_union_discriminator": "Invalid discriminator value. Expected {options}",
+    "invalid_enum_value": "Invalid enum value. Expected {options}, received '{received}'",
     "invalid_arguments": "Invalid function arguments",
     "invalid_return_type": "Invalid function return type",
     "invalid_date": "Invalid date",
@@ -47,9 +47,9 @@
         "not_inclusive": "Invalid input"
       },
       "date": {
-        "exact": "Date must be exactly {- minimum, datetime}",
-        "inclusive": "Date must be greater than or equal to {- minimum, datetime}",
-        "not_inclusive": "Date must be greater than {- minimum, datetime}"
+        "exact": "Date must be exactly {minimum, datetime}",
+        "inclusive": "Date must be greater than or equal to {minimum, datetime}",
+        "not_inclusive": "Date must be greater than {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Invalid input"
       },
       "date": {
-        "exact": "Date must be exactly {- maximum, datetime}",
-        "inclusive": "Date must be smaller than or equal to {- maximum, datetime}",
-        "not_inclusive": "Date must be smaller than {- maximum, datetime}"
+        "exact": "Date must be exactly {maximum, datetime}",
+        "inclusive": "Date must be smaller than or equal to {maximum, datetime}",
+        "not_inclusive": "Date must be smaller than {maximum, datetime}"
       }
     }
   },

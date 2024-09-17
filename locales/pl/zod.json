@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Wymagane",
     "invalid_type_received_null": "Wymagane",
     "invalid_literal": "Niewłaściwa wartość literału, oczekiwano: {expected}",
-    "unrecognized_keys": "Nierozpoznany klucz(e) w obiekcie: {- keys}",
+    "unrecognized_keys": "Nierozpoznany klucz(e) w obiekcie: {keys}",
     "invalid_union": "Niewłaściwa wartość",
-    "invalid_union_discriminator": "Niewłaściwa wartość dyskryminatora. Oczekiwano: {- options}",
-    "invalid_enum_value": "Niewłaściwa wartość wyliczeniowa. Oczekiwano: {- options}, otrzymano: '{received}'",
+    "invalid_union_discriminator": "Niewłaściwa wartość dyskryminatora. Oczekiwano: {options}",
+    "invalid_enum_value": "Niewłaściwa wartość wyliczeniowa. Oczekiwano: {options}, otrzymano: '{received}'",
     "invalid_arguments": "Niewłaściwe argumenty funkcji",
     "invalid_return_type": "Niewłaściwy typ zwrotny funkcji",
     "invalid_date": "Niewłaściwa data",
@@ -47,9 +47,9 @@
         "not_inclusive": "Niewłaściwa wartość"
       },
       "date": {
-        "exact": "Data musi wynosić dokładnie {- minimum, datetime}",
-        "inclusive": "Data musi być większa lub równa {- minimum, datetime}",
-        "not_inclusive": "Data musi być większa niż {- minimum, datetime}"
+        "exact": "Data musi wynosić dokładnie {minimum, datetime}",
+        "inclusive": "Data musi być większa lub równa {minimum, datetime}",
+        "not_inclusive": "Data musi być większa niż {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Niewłaściwa wartość"
       },
       "date": {
-        "exact": "Data musi wynosić dokładnie {- maximum, datetime}",
-        "inclusive": "Data musi być mniejsza lub równa {- maximum, datetime}",
-        "not_inclusive": "Data musi być mniejsza niż {- maximum, datetime}"
+        "exact": "Data musi wynosić dokładnie {maximum, datetime}",
+        "inclusive": "Data musi być mniejsza lub równa {maximum, datetime}",
+        "not_inclusive": "Data musi być mniejsza niż {maximum, datetime}"
       }
     }
   },

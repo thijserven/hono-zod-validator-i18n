@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Обязательное поле",
     "invalid_type_received_null": "Обязательное поле",
     "invalid_literal": "Неверное значение литерала, ожидалось {expected}",
-    "unrecognized_keys": "Неверные ключи в объекте: {- keys}",
+    "unrecognized_keys": "Неверные ключи в объекте: {keys}",
     "invalid_union": "Результаты пересечения не могут быть объединены",
-    "invalid_union_discriminator": "Неверное значение дискриминатора. Ожидалось {- options}",
-    "invalid_enum_value": "Неверное значение перечисления. Ожидалось {- options}, получено '{received}'",
+    "invalid_union_discriminator": "Неверное значение дискриминатора. Ожидалось {options}",
+    "invalid_enum_value": "Неверное значение перечисления. Ожидалось {options}, получено '{received}'",
     "invalid_arguments": "Неверный тип аргументов функции",
     "invalid_return_type": "Неверный тип возвращаемого значения функции",
     "invalid_date": "Неверный формат даты",
@@ -47,9 +47,9 @@
         "not_inclusive": "Неверный ввод"
       },
       "date": {
-        "exact": "Дата должна быть {- minimum, datetime}",
-        "inclusive": "Дата должна быть больше или равна {- minimum, datetime}",
-        "not_inclusive": "Дата должна быть больше {- minimum, datetime}"
+        "exact": "Дата должна быть {minimum, datetime}",
+        "inclusive": "Дата должна быть больше или равна {minimum, datetime}",
+        "not_inclusive": "Дата должна быть больше {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Неверный ввод"
       },
       "date": {
-        "exact": "Дата должна быть {- maximum, datetime}",
-        "inclusive": "Дата должна быть меньше или равна {- maximum, datetime}",
-        "not_inclusive": "Дата должна быть меньше {- maximum, datetime}"
+        "exact": "Дата должна быть {maximum, datetime}",
+        "inclusive": "Дата должна быть меньше или равна {maximum, datetime}",
+        "not_inclusive": "Дата должна быть меньше {maximum, datetime}"
       }
     }
   },

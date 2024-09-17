@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Obligatoriu",
     "invalid_type_received_null": "Obligatoriu",
     "invalid_literal": "Valoare literală nevalidă, valoarea așteptată era {expected}",
-    "unrecognized_keys": "Chei/e nerecunoscută/e în obiect: {- keys}",
+    "unrecognized_keys": "Chei/e nerecunoscută/e în obiect: {keys}",
     "invalid_union": "Intrare nevalidă",
-    "invalid_union_discriminator": "Valoare nevalidă pentru discriminant. Valori așteptate: {- options}",
-    "invalid_enum_value": "Valoare nevalidă pentru enum. Valori așteptate: {- options}, s-a primit: '{received}'",
+    "invalid_union_discriminator": "Valoare nevalidă pentru discriminant. Valori așteptate: {options}",
+    "invalid_enum_value": "Valoare nevalidă pentru enum. Valori așteptate: {options}, s-a primit: '{received}'",
     "invalid_arguments": "Parametri nevalizi pentru funcție",
     "invalid_return_type": "Tip de date returnat de funcție nevalid",
     "invalid_date": "Dată nevalidă",
@@ -47,9 +47,9 @@
         "not_inclusive": "Intrare nevalidă"
       },
       "date": {
-        "exact": "Data trebuie să fie exact {- minimum, datetime}",
-        "inclusive": "Data trebuie să fie mai mare sau egală cu {- minimum, datetime}",
-        "not_inclusive": "Data trebuie să fie strict mai mare decât {- minimum, datetime}"
+        "exact": "Data trebuie să fie exact {minimum, datetime}",
+        "inclusive": "Data trebuie să fie mai mare sau egală cu {minimum, datetime}",
+        "not_inclusive": "Data trebuie să fie strict mai mare decât {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Intrare nevalidă"
       },
       "date": {
-        "exact": "Data trebuie să fie exact {- maximum, datetime}",
-        "inclusive": "Data trebuie să fie mai mică sau egală cu {- maximum, datetime}",
-        "not_inclusive": "Data trebuie să fie strict mai mică decât {- maximum, datetime}"
+        "exact": "Data trebuie să fie exact {maximum, datetime}",
+        "inclusive": "Data trebuie să fie mai mică sau egală cu {maximum, datetime}",
+        "not_inclusive": "Data trebuie să fie strict mai mică decât {maximum, datetime}"
       }
     }
   },

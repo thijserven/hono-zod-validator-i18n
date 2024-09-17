@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "필수 입력 값 입니다.",
     "invalid_type_received_null": "필수 입력 값 입니다.",
     "invalid_literal": "허용되지 않은 리터럴 값 입니다. 입력 가능한 값은 {expected} 입니다.",
-    "unrecognized_keys": "객체 키 {- keys} 값은 허용되지 않습니다.",
+    "unrecognized_keys": "객체 키 {keys} 값은 허용되지 않습니다.",
     "invalid_union": "허용되지 않은 입력 값입니다.",
-    "invalid_union_discriminator": "허용되지 않은 입력 값입니다. 입력 가능한 값은 {- options} 입니다.",
-    "invalid_enum_value": "'{received}'값은 허용되지 않습니다. 입력 가능한 값은 {- options} 입니다.",
+    "invalid_union_discriminator": "허용되지 않은 입력 값입니다. 입력 가능한 값은 {options} 입니다.",
+    "invalid_enum_value": "'{received}'값은 허용되지 않습니다. 입력 가능한 값은 {options} 입니다.",
     "invalid_arguments": "허용되지 않은 파라메터 타입입니다.",
     "invalid_return_type": "허용되지 않은 반환 타입입니다.",
     "invalid_date": "허용되지 않은 날짜 값 입니다.",
@@ -47,9 +47,9 @@
         "not_inclusive": "허용되지 않은 입력 값 입니다."
       },
       "date": {
-        "exact": "{- minimum, datetime}과 같은 날짜 이어야 합니다.",
-        "inclusive": "{- minimum, datetime}보다 이후이거나 같아야 합니다.",
-        "not_inclusive": "{- minimum, datetime}보다 이후 이어야 합니다."
+        "exact": "{minimum, datetime}과 같은 날짜 이어야 합니다.",
+        "inclusive": "{minimum, datetime}보다 이후이거나 같아야 합니다.",
+        "not_inclusive": "{minimum, datetime}보다 이후 이어야 합니다."
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "허용되지 않은 입력 값 입니다."
       },
       "date": {
-        "exact": "{- maximum, datetime}과 같은 날짜 이어야 합니다.",
-        "inclusive": "{- maximum, datetime}보다 이전이거나 같아야 합니다.",
-        "not_inclusive": "{- maximum, datetime}보다 이전이어야 합니다."
+        "exact": "{maximum, datetime}과 같은 날짜 이어야 합니다.",
+        "inclusive": "{maximum, datetime}보다 이전이거나 같아야 합니다.",
+        "not_inclusive": "{maximum, datetime}보다 이전이어야 합니다."
       }
     }
   },

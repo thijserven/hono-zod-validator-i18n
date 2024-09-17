@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Obvezno polje",
     "invalid_type_received_null": "Obvezno polje",
     "invalid_literal": "Neispravna literalna vrijednost, očekivano {expected}",
-    "unrecognized_keys": "Neprepoznat(i) ključ(evi) u objektu: {- keys}",
+    "unrecognized_keys": "Neprepoznat(i) ključ(evi) u objektu: {keys}",
     "invalid_union": "Neispravan unos",
-    "invalid_union_discriminator": "Neispravna vrijednost diskriminatora. Očekivano {- options}",
-    "invalid_enum_value": "Neispravna vrijednost enumeracije. Očekivano {- options}, uneseno '{received}'",
+    "invalid_union_discriminator": "Neispravna vrijednost diskriminatora. Očekivano {options}",
+    "invalid_enum_value": "Neispravna vrijednost enumeracije. Očekivano {options}, uneseno '{received}'",
     "invalid_arguments": "Neispravni argumenti funkcije",
     "invalid_return_type": "Neispravan tip povratne vrijednosti",
     "invalid_date": "Neispravan datum",
@@ -47,9 +47,9 @@
         "not_inclusive": "Neispravan unos"
       },
       "date": {
-        "exact": "Datum mora biti točno {- minimum, datetime}",
-        "inclusive": "Datum mora biti veći od ili jednak {- minimum, datetime}",
-        "not_inclusive": "Datum mora biti veći od {- minimum, datetime}"
+        "exact": "Datum mora biti točno {minimum, datetime}",
+        "inclusive": "Datum mora biti veći od ili jednak {minimum, datetime}",
+        "not_inclusive": "Datum mora biti veći od {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Neispravan unos"
       },
       "date": {
-        "exact": "Datum mora biti točno {- maximum, datetime}",
-        "inclusive": "Datum mora biti manji od ili jednak {- maximum, datetime}",
-        "not_inclusive": "Datum mora biti manji od {- maximum, datetime}"
+        "exact": "Datum mora biti točno {maximum, datetime}",
+        "inclusive": "Datum mora biti manji od ili jednak {maximum, datetime}",
+        "not_inclusive": "Datum mora biti manji od {maximum, datetime}"
       }
     }
   },

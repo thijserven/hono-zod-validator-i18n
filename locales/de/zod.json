@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Darf nicht leer sein",
     "invalid_type_received_null": "Darf nicht leer sein",
     "invalid_literal": "Ungültiger Literalwert, {expected} erwartet",
-    "unrecognized_keys": "Unbekannte Schlüssel im Objekt: {- keys}",
+    "unrecognized_keys": "Unbekannte Schlüssel im Objekt: {keys}",
     "invalid_union": "Ungültige Eingabe",
-    "invalid_union_discriminator": "Ungültiger Diskriminatorwert, {- options} erwartet",
-    "invalid_enum_value": "Ungültiger Enum-Wert. {- options} erwartet, '{received}' erhalten",
+    "invalid_union_discriminator": "Ungültiger Diskriminatorwert, {options} erwartet",
+    "invalid_enum_value": "Ungültiger Enum-Wert. {options} erwartet, '{received}' erhalten",
     "invalid_arguments": "Ungültige Funktionsargumente",
     "invalid_return_type": "Ungültiger Funktionsrückgabewert",
     "invalid_date": "Ungültiges Datum",
@@ -47,9 +47,9 @@
         "not_inclusive": "Ungültige Eingabe"
       },
       "date": {
-        "exact": "Datum muss genau {- minimum, datetime} sein",
-        "inclusive": "Datum muss größer oder gleich {- minimum, datetime} sein",
-        "not_inclusive": "Datum muss größer als {- minimum, datetime} sein"
+        "exact": "Datum muss genau {minimum, datetime} sein",
+        "inclusive": "Datum muss größer oder gleich {minimum, datetime} sein",
+        "not_inclusive": "Datum muss größer als {minimum, datetime} sein"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Ungültige Eingabe"
       },
       "date": {
-        "exact": "Datum muss genau {- maximum, datetime} sein",
-        "inclusive": "Datum muss kleiner oder gleich {- maximum, datetime} sein",
-        "not_inclusive": "Datum muss kleiner als {- maximum, datetime} sein"
+        "exact": "Datum muss genau {maximum, datetime} sein",
+        "inclusive": "Datum muss kleiner oder gleich {maximum, datetime} sein",
+        "not_inclusive": "Datum muss kleiner als {maximum, datetime} sein"
       }
     }
   },

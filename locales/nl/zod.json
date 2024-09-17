@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Vereist",
     "invalid_type_received_null": "Vereist",
     "invalid_literal": "Ongeldige letterlijke waarde, vereist {expected}",
-    "unrecognized_keys": "Onbekende sleutel(s) in object: {- keys}",
+    "unrecognized_keys": "Onbekende sleutel(s) in object: {keys}",
     "invalid_union": "Ongeldige invoer",
-    "invalid_union_discriminator": "Ongeldige discriminatorwaarde. vereist {- options}",
-    "invalid_enum_value": "Waarde '{received}' is ongeldig. Antwoordmogelijkheden zijn: {- options}",
+    "invalid_union_discriminator": "Ongeldige discriminatorwaarde. vereist {options}",
+    "invalid_enum_value": "Waarde '{received}' is ongeldig. Antwoordmogelijkheden zijn: {options}",
     "invalid_arguments": "Ongeldige functieargumenten",
     "invalid_return_type": "Ongeldig functietype teruggegeven waarde",
     "invalid_date": "Ongeldige datum",
@@ -47,9 +47,9 @@
         "not_inclusive": "Ongeldige invoer"
       },
       "date": {
-        "exact": "Datum moet precies {- minimum, datetime} zijn",
-        "inclusive": "Datum moet op of later dan {- minimum, datetime} zijn",
-        "not_inclusive": "Datum moet later dan {- minimum, datetime} zijn"
+        "exact": "Datum moet precies {minimum, datetime} zijn",
+        "inclusive": "Datum moet op of later dan {minimum, datetime} zijn",
+        "not_inclusive": "Datum moet later dan {minimum, datetime} zijn"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Ongeldige invoer"
       },
       "date": {
-        "exact": "Datum moet precies {- maximum, datetime} zijn",
-        "inclusive": "Datum moet op of eerder dan {- maximum, datetime} zijn",
-        "not_inclusive": "Datum moet eerder dan {- maximum, datetime} zijn"
+        "exact": "Datum moet precies {maximum, datetime} zijn",
+        "inclusive": "Datum moet op of eerder dan {maximum, datetime} zijn",
+        "not_inclusive": "Datum moet eerder dan {maximum, datetime} zijn"
       }
     }
   },

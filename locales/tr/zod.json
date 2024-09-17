@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Zorunlu",
     "invalid_type_received_null": "Zorunlu",
     "invalid_literal": "Geçersiz ilkel veri, beklenen {expected}",
-    "unrecognized_keys": "Nesne içinde bilinmeyen anahtar(lar): {- keys}",
+    "unrecognized_keys": "Nesne içinde bilinmeyen anahtar(lar): {keys}",
     "invalid_union": "Geçersiz tip birleşimi",
-    "invalid_union_discriminator": "Geçersiz ayırıcı değer. Beklenen {- options}",
-    "invalid_enum_value": "Geçersiz enum değeri. Beklenen {- options}, alınan '{received}'",
+    "invalid_union_discriminator": "Geçersiz ayırıcı değer. Beklenen {options}",
+    "invalid_enum_value": "Geçersiz enum değeri. Beklenen {options}, alınan '{received}'",
     "invalid_arguments": "Geçersiz fonksiyon argümanları",
     "invalid_return_type": "Geçersiz fonksiyon dönüş değeri",
     "invalid_date": "Geçersiz tarih",
@@ -47,9 +47,9 @@
         "not_inclusive": "Geçersiz girdi"
       },
       "date": {
-        "exact": "Tarih tam olarak {- minimum, datetime}",
-        "inclusive": "Tarih eşit veya daha büyük olmalı {- minimum, datetime}",
-        "not_inclusive": "Tarih daha büyük olmalı{- minimum, datetime}"
+        "exact": "Tarih tam olarak {minimum, datetime}",
+        "inclusive": "Tarih eşit veya daha büyük olmalı {minimum, datetime}",
+        "not_inclusive": "Tarih daha büyük olmalı{minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Geçersiz girdi"
       },
       "date": {
-        "exact": "Tarih tam olarak {- maximum, datetime}",
-        "inclusive": "Tarih eşit veya daha küçük olmalı {- maximum, datetime}",
-        "not_inclusive": "Tarih daha küçük olmalı {- maximum, datetime}"
+        "exact": "Tarih tam olarak {maximum, datetime}",
+        "inclusive": "Tarih eşit veya daha küçük olmalı {maximum, datetime}",
+        "not_inclusive": "Tarih daha küçük olmalı {maximum, datetime}"
       }
     }
   },

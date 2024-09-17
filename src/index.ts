@@ -275,11 +275,8 @@ const zValidatorI18n = <
     schema,
     (result, c) => {
       if (!result.success) {
-        result.error.issues = translateIssues(c, result.error.issues); // Translate zod issue messages
-        // throw new ZodError(result.error.issues) // Throw ZodError so it can be caught by the global error handler
+        result.error.issues = translateIssues(c, result.error.issues);
       }
-
-      // Execute the original hook if provided
       if (hook) {
         return hook(result, c);
       }

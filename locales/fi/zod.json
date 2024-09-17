@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Vaadittu",
     "invalid_type_received_null": "Vaadittu",
     "invalid_literal": "Virheellinen merkkijono, odotettiin {expected}",
-    "unrecognized_keys": "Tuntemattomia avaimia objektissa: {- keys}",
+    "unrecognized_keys": "Tuntemattomia avaimia objektissa: {keys}",
     "invalid_union": "Virheellinen syöte",
-    "invalid_union_discriminator": "Virheellinen erottimen arvo. Odotettiin {- options}",
-    "invalid_enum_value": "Virheellinen vaihtoehto. Odotettiin {- options}, saatiin '{received}'",
+    "invalid_union_discriminator": "Virheellinen erottimen arvo. Odotettiin {options}",
+    "invalid_enum_value": "Virheellinen vaihtoehto. Odotettiin {options}, saatiin '{received}'",
     "invalid_arguments": "Virheelliset funktion argumentit",
     "invalid_return_type": "Virheellinen funktion palautustyyppi",
     "invalid_date": "Virheellinen päivämäärä",
@@ -47,9 +47,9 @@
         "not_inclusive": "Virheellinen syöte"
       },
       "date": {
-        "exact": "Päivämäärän on oltava täsmälleen {- minimum, datetime}",
-        "inclusive": "Päivämäärän on oltava suurempi tai yhtä suuri kuin {- minimum, datetime}",
-        "not_inclusive": "Päivämäärän on oltava suurempi kuin {- minimum, datetime}"
+        "exact": "Päivämäärän on oltava täsmälleen {minimum, datetime}",
+        "inclusive": "Päivämäärän on oltava suurempi tai yhtä suuri kuin {minimum, datetime}",
+        "not_inclusive": "Päivämäärän on oltava suurempi kuin {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Virheellinen syöte"
       },
       "date": {
-        "exact": "Päivämäärän on oltava täsmälleen {- maximum, datetime}",
-        "inclusive": "Päivämäärän on oltava pienempi tai yhtä suuri kuin {- maximum, datetime}",
-        "not_inclusive": "Päivämäärän on oltava pienempi kuin {- maximum, datetime}"
+        "exact": "Päivämäärän on oltava täsmälleen {maximum, datetime}",
+        "inclusive": "Päivämäärän on oltava pienempi tai yhtä suuri kuin {maximum, datetime}",
+        "not_inclusive": "Päivämäärän on oltava pienempi kuin {maximum, datetime}"
       }
     }
   },

@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Obligatoire",
     "invalid_type_received_null": "Obligatoire",
     "invalid_literal": "La valeur doit être {expected}",
-    "unrecognized_keys": "Une ou plusieurs clé(s) non reconnue(s) dans l'objet : {- keys}",
+    "unrecognized_keys": "Une ou plusieurs clé(s) non reconnue(s) dans l'objet : {keys}",
     "invalid_union": "Champ non valide",
-    "invalid_union_discriminator": "La valeur du discriminateur est non valide. Options attendues : {- options}",
-    "invalid_enum_value": "La valeur « {received} » n'existe pas dans les options : {- options}",
+    "invalid_union_discriminator": "La valeur du discriminateur est non valide. Options attendues : {options}",
+    "invalid_enum_value": "La valeur « {received} » n'existe pas dans les options : {options}",
     "invalid_arguments": "Les arguments de la fonction sont non valides",
     "invalid_return_type": "Le type de retour de la fonction n'est pas valide",
     "invalid_date": "La date est non valide",
@@ -47,9 +47,9 @@
         "not_inclusive": "Champ non valide"
       },
       "date": {
-        "exact": "La date doit être égale au {- minimum, datetime}",
-        "inclusive": "La date doit être ultérieure ou égale au {- minimum, datetime}",
-        "not_inclusive": "La date doit être ultérieure au {- minimum, datetime}"
+        "exact": "La date doit être égale au {minimum, datetime}",
+        "inclusive": "La date doit être ultérieure ou égale au {minimum, datetime}",
+        "not_inclusive": "La date doit être ultérieure au {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Champ non valide"
       },
       "date": {
-        "exact": "La date doit être égale au {- maximum, datetime}",
-        "inclusive": "La date doit être antérieure ou égale au {- maximum, datetime}",
-        "not_inclusive": "La date doit être antérieure au {- maximum, datetime}"
+        "exact": "La date doit être égale au {maximum, datetime}",
+        "inclusive": "La date doit être antérieure ou égale au {maximum, datetime}",
+        "not_inclusive": "La date doit être antérieure au {maximum, datetime}"
       }
     }
   },

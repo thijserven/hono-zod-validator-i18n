@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Obligatoriskt",
     "invalid_type_received_null": "Obligatoriskt",
     "invalid_literal": "Ogiltigt literalvärde, förväntade {expected}",
-    "unrecognized_keys": "Okänd(a) nyckel(ar) i objektet: {- keys}",
+    "unrecognized_keys": "Okänd(a) nyckel(ar) i objektet: {keys}",
     "invalid_union": "Ogiltig inmatning",
-    "invalid_union_discriminator": "Ogiltigt diskriminatorsvärde. Förväntade {- options}",
-    "invalid_enum_value": "Ogiltigt enumvärde. Förväntade {- options}, fick '{received}'",
+    "invalid_union_discriminator": "Ogiltigt diskriminatorsvärde. Förväntade {options}",
+    "invalid_enum_value": "Ogiltigt enumvärde. Förväntade {options}, fick '{received}'",
     "invalid_arguments": "Ogiltiga funktionsargument",
     "invalid_return_type": "Ogiltig returtyp för funktionen",
     "invalid_date": "Ogiltigt datum",
@@ -47,9 +47,9 @@
         "not_inclusive": "Ogiltig inmatning"
       },
       "date": {
-        "exact": "Datumet måste vara exakt {- minimum, datetime}",
-        "inclusive": "Datumet måste vara större än eller lika med {- minimum, datetime}",
-        "not_inclusive": "Datumet måste vara större än {- minimum, datetime}"
+        "exact": "Datumet måste vara exakt {minimum, datetime}",
+        "inclusive": "Datumet måste vara större än eller lika med {minimum, datetime}",
+        "not_inclusive": "Datumet måste vara större än {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Ogiltig inmatning"
       },
       "date": {
-        "exact": "Datumet måste vara exakt {- maximum, datetime}",
-        "inclusive": "Datumet måste vara mindre än eller lika med {- maximum, datetime}",
-        "not_inclusive": "Datumet måste vara mindre än {- maximum, datetime}"
+        "exact": "Datumet måste vara exakt {maximum, datetime}",
+        "inclusive": "Datumet måste vara mindre än eller lika med {maximum, datetime}",
+        "not_inclusive": "Datumet måste vara mindre än {maximum, datetime}"
       }
     }
   },

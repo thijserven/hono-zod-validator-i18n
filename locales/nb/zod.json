@@ -4,10 +4,10 @@
     "invalid_type_received_undefined": "Må ikke være tom",
     "invalid_type_received_null": "Må ikke være tom",
     "invalid_literal": "Ugyldig bokstavlig verdi, forventet {expected}",
-    "unrecognized_keys": "Ukjent nøkkel i objektet: {- keys}",
+    "unrecognized_keys": "Ukjent nøkkel i objektet: {keys}",
     "invalid_union": "Ugyldig inndata",
-    "invalid_union_discriminator": "Ugyldig diskriminatorverdi, forventet {- options}",
-    "invalid_enum_value": "Ugyldig enum-verdi. Forventet {- options}, mottatt '{received}'",
+    "invalid_union_discriminator": "Ugyldig diskriminatorverdi, forventet {options}",
+    "invalid_enum_value": "Ugyldig enum-verdi. Forventet {options}, mottatt '{received}'",
     "invalid_arguments": "Ugyldige funksjonsargumenter",
     "invalid_return_type": "Ugyldig returtype",
     "invalid_date": "Ugyldig dato",
@@ -47,9 +47,9 @@
         "not_inclusive": "Ugyldig inndata"
       },
       "date": {
-        "exact": "Datoen må være nøyaktig {- minimum, datetime}",
-        "inclusive": "Datoen må være større enn eller lik {- minimum, datetime}",
-        "not_inclusive": "Datoen må være større enn {- minimum, datetime}"
+        "exact": "Datoen må være nøyaktig {minimum, datetime}",
+        "inclusive": "Datoen må være større enn eller lik {minimum, datetime}",
+        "not_inclusive": "Datoen må være større enn {minimum, datetime}"
       }
     },
     "too_big": {
@@ -74,9 +74,9 @@
         "not_inclusive": "Ugyldig inndata"
       },
       "date": {
-        "exact": "Datoen må være nøyaktig {- maximum, datetime}",
-        "inclusive": "Datoen må være mindre enn eller lik {- maximum, datetime}",
-        "not_inclusive": "Datoen må være mindre enn {- maximum, datetime}"
+        "exact": "Datoen må være nøyaktig {maximum, datetime}",
+        "inclusive": "Datoen må være mindre enn eller lik {maximum, datetime}",
+        "not_inclusive": "Datoen må være mindre enn {maximum, datetime}"
       }
     }
   },
